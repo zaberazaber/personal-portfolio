@@ -21,8 +21,9 @@ const messages = [
   'just-saying-hi',
   'please-work-for-us',
   'help',
-  'admin',
+  'universe',
   'or-I-really-like-your-website',
+  'hey I want to send you some money :P',
   'thanks',
 ];
 
@@ -40,7 +41,7 @@ const useInterval = (callback, delay) => {
       }, delay);
       return () => clearInterval(id);
     }
-    return () => {}; // pass linter
+    return () => {}; // unmounting component
   }, [delay]);
 };
 
@@ -81,11 +82,11 @@ const EmailLink = () => {
     >
       <a
         href={
-          validateText(message) ? `mailto:${message}@zaberazaber.com` : ''
+          validateText(message) ? `mailto:${message}@m.work.zubair@gmail.com` : ''
         }
       >
         <span>{message}</span>
-        <span>@zaberazaber.com</span>
+        <span> @ zubair</span>
       </a>
     </div>
   );

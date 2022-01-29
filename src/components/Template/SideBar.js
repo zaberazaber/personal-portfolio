@@ -14,23 +14,14 @@ const SideBar = () => (
       <header>
         <h2>Mohammad&apos;Zubair</h2>
         <p>
-          <a href="mailto:m.work.zubair@gmail.com">
-            m.work.zubair@gmail.com
-          </a>
+          <a href="mailto:m.work.zubair@gmail.com">m.work.zubair@gmail.com</a>
         </p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>
-        Hi, I&apos;m Zubair. I like building things. I am a
-        <a href="https://matroid.com">Matroid</a>,
-        <a href="https://planet.com">Planet</a>,
-        <a href="https://planetaryresources.com">Planetary Resources</a>,
-        <a href="https://facebook.com">Facebook</a>, and
-        <a href="https://seds.org">SEDS</a>.
-      </p>
+      <p>Hi, I&apos;m Zubair. Feel free to go through my personal website.</p>
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? (
@@ -49,7 +40,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Mohammad&apos;Zubair <Link to="/">zaberazaber.com</Link>.
+        &copy; Mohammad&apos;Zubair.
       </p>
     </section>
   </section>
